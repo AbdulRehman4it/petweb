@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/output.css --watch"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  },
+  "author": "RISS",
+  "licenses": "RISS"
+}

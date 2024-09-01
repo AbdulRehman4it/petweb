@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: osbold;
+    src: url(../fonts/OstrichSans-Bold.otf);
+  }
+@font-face {
+    font-family: osmedium;
+    src: url(../fonts/OstrichSans-Medium.otf);
+  }
+  @font-face {
+    font-family: osblack;
+    src: url(../build/fonts/OstrichSans-Black.otf);
+  }
+  @font-face {
+    font-family: rubicregular;
+    src: url(../fonts/Rubik-Regular.ttf);
+  } 
+  @font-face {
+    font-family: rubiclight;
+    src: url(../fonts/Rubik-Light.ttf);
+  } 
+  @font-face {
+    font-family: rubicregular;
+    src: url(../build/fonts/Rubik-Regular.ttf);
+  } 
+  @font-face {
+    font-family: rubicmedium;
+    src: url(../fonts/Rubik-Medium.ttf);
+  }
+.osmedium{
+    font-family: osmedium;
+}
+.osbold{
+    font-family: osbold;
+}
+.osblack{
+  font-family: osblack;
+}
+.rubicregular{
+    font-family: rubicregular; 
+}
+.rubiclight{
+  font-family: rubiclight;
+}
+.rubicmedium{
+  font-family: rubicmedium;
+}
+.list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.star{
+  background: url('../image/dot.svg') no-repeat left top;
+height: 34px;
+  padding-left: 44px;
+  
+}
