@@ -54,8 +54,11 @@
   list-style-type: none;
 }
 .star{
-  background: url('../image/dot.svg') no-repeat left top;
+  background: url('../image/dot.png') no-repeat left top;
 height: 34px;
   padding-left: 44px;
   
+}
+.shadow-bottom {
+  box-shadow: 0 20px 40px -23px #666;
 }
