@@ -64,6 +64,21 @@ height: 34px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.background1{
+  background-image: url(../image/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background2{
+  background-image: url(../image/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background3{
+  background-image: url(../image/bg3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .divback{
   background-image: url(../image/paw2.png);
   background-repeat: no-repeat;
